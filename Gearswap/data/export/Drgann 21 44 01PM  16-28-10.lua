@@ -1,0 +1,17 @@
+sets.exported={
+    main="Tizona",
+    sub={ name="Nibiru Blade", augments={'DEX+10','Accuracy+20','Mag. Acc.+15',}},
+    ammo="Ginsen",
+    head={ name="Dampening Tam", augments={'DEX+4','Accuracy+10','Mag. Acc.+7',}},
+    body={ name="Rawhide Vest", augments={'HP+50','Accuracy+15','Evasion+20',}},
+    hands={ name="Taeon Gloves", augments={'Accuracy+23','"Triple Atk."+2',}},
+    legs={ name="Samnuha Tights", augments={'STR+10','DEX+10','"Dbl.Atk."+3','"Triple Atk."+3',}},
+    feet={ name="Taeon Boots", augments={'Accuracy+20','"Triple Atk."+2',}},
+    neck="Asperity Necklace",
+    waist="Windbuffet Belt",
+    left_ear="Dudgeon Earring",
+    right_ear="Heartseeker Earring",
+    left_ring="Epona's Ring",
+    right_ring="Rajas Ring",
+    back="Lupine Cape",
+}

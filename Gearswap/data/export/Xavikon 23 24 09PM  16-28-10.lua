@@ -1,0 +1,17 @@
+sets.exported={
+    main={ name="Claidheamh Soluis", augments={'Attack+14','"Store TP"+3','STR+12 DEX+12',}},
+    sub="Aegis",
+    ammo="Angha Gem",
+    head="Sulevia's Mask",
+    body={ name="Cab. Surcoat +1", augments={'Enhances "Fealty" effect',}},
+    hands="Sulevia's Gauntlets",
+    legs="Sulevia's Cuisses",
+    feet="Sulev. Leggings +1",
+    neck="Twilight Torque",
+    waist="Windbuffet Belt +1",
+    left_ear="Steelflash Earring",
+    right_ear="Bladeborn Earring",
+    left_ring="Defending Ring",
+    right_ring={ name="Dark Ring", augments={'Phys. dmg. taken -5%','Magic dmg. taken -3%',}},
+    back={ name="Rudianos's Mantle", augments={'HP+60','Enmity+10',}},
+}

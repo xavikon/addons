@@ -1,0 +1,191 @@
+[Ctrl+F8]	= Toggle auto-stun mode, will attempt to automatically stun a list of moves in your Name-Globals
+			file.
+
+:Macro:		/console gs c toggle AutoStunMode
+
+[Alt+F8]	= Toggle auto-defense mode, will attempt to automatically swap into and out of defensive sets for
+			the specific move, listed in your Name-Globals file.
+
+:Macro:		/console gs c toggle AutoDefenseMode
+
+[Win+F8]	= Turns on auto nuking on some jobs.
+
+:Macro:		/console gs c toggle AutoNukeMode
+
+[F9]		= Change offense mode. (Usually Engaged, accuracy modes) Fodder (Trash Mobs) sets generally
+				have more Dual Wield/Multiattack because they don't have to worry about Acc/Atk.
+				
+:Macro:		/console gs c cycle OffenseMode
+
+
+[Ctrl+F9]	= Change hybrid engaged mode. (Usually defensive modes such as PDT or Evasion, combines with
+				offense mode to create an engaged with both options if you created it in gearswap.
+
+:Macro:		/console gs c cycle HybridMode
+
+
+[Alt+F9]	= Change Weasponskill mode. (Usually accuracy sets to depend on targets.)
+
+:Macro:		/console gs c cycle WeaponskillMode
+
+
+[Win+F9]	= Change ranged mode. (Again usually accuracy sets for target's evasion.) This doesn't affect
+				ranged WS, that's the above.
+				
+:Macro:		/console gs c cycle RangedMode
+
+
+[F10]		= Somewhat "Lock" a Physical defense set in, only changes some gear for spells and abilities
+				generally an "OH Shit Button" to be used in response to physical abilites.
+
+:Macro:		/console gs c set DefenseMode Physical
+
+
+[Ctrl+F10]	= Change the current Physical defense set, generally things like PDT, Evasion, PDTTwilight
+				that the above command locks in place.
+				
+:Macro:		/console gs c cycle PhysicalDefenseMode
+
+
+[Alt+F10]	= Toggle kiting mode. Makes your movement speed items stay in place when in idle/defensive idle
+				sets, and should also have it likely overwrite any movementspeed reducing slots.
+
+:Macro:		/console gs c toggle Kiting
+		
+		
+[Win+F10]	= Toggle job specific modes, different depending on jobs some examples:
+				Also sometimes Ctrl/Alt/Win + Grave/Tilde (` or ~) or even Backspace, Backslash, Delete, Dash or Equals.
+
+:Macro:
+Thf:		/console gs c toggle AmbushMode		(Equips Ambush gear on TP and non SA/TA WS)
+Blu:		/console gs c toggle LearningMode	(Locks learning gear in at all times.)
+Pld:		/console gs c toggle EquipShield	(Allows Weapon/Shield to swap with F10/F11)
+Brd:		/console gs gs c cycle ExtraSongsMode (Your next song plays as a dummy song.) [Ctrl+~]
+Blm:		/console gs c cycle RecoverMode		(Nukes in converts elemental damage to MP gear)
+Blm2:		/console gs c activate MagicBurst	(Makes your next nuke equip magic burst bonus gear.) [Win+~]
+
+
+[F11]		= Somewhat "Lock" a Magical defense set in, only changes some gear for spells and abilities
+				generally an "OH Shit Button" to be used in response to magical abilites.
+
+:Macro:		/console gs c set DefenseMode Magical
+
+
+[Ctrl+F11]	= Change the current Magical defense set, generally things like MDT, MagicEvasion, MDTTwilight
+				that the above command locks in place.
+				
+:Macro:		/console gs c cycle MagicalDefenseMode
+
+
+
+[Alt+F11]	= Extra job specific modes, Pld gets extra defense modes, other melee generally get extra
+				melee modes.
+				
+:Macro:
+Pld:		/console gs c cycle ExtraDefenseMode
+Melees:		/console gs c cycle ExtraMeleeMode
+
+
+[Win+F11]	= Casting modes, such as resistant, and fodder mobs, and sets for proccing (Low damage, low recast).
+
+:Macro:		/console gs c cycle CastingMode
+
+
+[F12]	= Somewhat "Lock" a resistance set in, only changes some gear for spells and abilities
+				generally an "OH Shit Button" to be used in response to certain abilites.
+
+:Macro:		/console gs c set DefenseMode Resist
+
+[Ctrl+F12]	= Change the current resistdefense set, generally things like MEVA, Charm, Death
+				that the above command locks in place.
+				
+:Macro:		/console gs c cycle ResistDefenseMode
+
+[Win+F12]	= Changes the current idle set, from refresh, regen, PDT, etc.
+
+:Macro:		/console gs c cycle IdleMode
+
+[Alt+F12]	= Unlocks current defense mode.
+
+:Macro:		/console gs c reset DefenseMode
+
+[Pause/Break]		= Displays most current modes and reequips gear appropriate to your status.
+
+:Macro:		/console gs c update user
+
+[Win+Pause/Break]	= Toggles or cycles automatic modes, such as automatic buffing on Geo or Brd.
+
+:Macro:		/console gs c toggle AutoBuffMode
+			/console gs c cycle AutoWSMode
+			/console gs c toggle AutoDefenseMode
+
+[Ctrl+Alt+Win+F12]	= Reloads gearswap to reset all the current modes or update changes quickly.
+
+:Macro:		/console gs reload
+
+[Ctrl+Alt+Win+F1] = Toggles windower lighting setttings.
+				
+:Macro:		/console gs c cycle MagicalDefenseMode
+
+[Ctrl+Alt+Win+Pause/Break]	= Runs Organizer to obtain your curren't job's gear as listed in your gearswap file.
+
+:Macro:		/console gs org
+
+--- Non F-Key combinations. ---
+
+[Ctrl+T]	= Change treasurehunter mode, Tag: Equips TH gear for one hit, Fulltime keeps it on always, SATA for Sneak/Trick Attack.
+
+:Macro:		/console gs c cycle treasuremode
+
+
+[Alt+T]		= Target battle target. (Red mob claimed by party.)
+
+:Macro:		/target <bt>
+
+
+[Ctrl+O]	= Toggle fillmode. (See through walls/ceiling/floors.)
+
+:Macro:		/console fillmode
+
+
+[Alt+P]		= Equip Cure-Potency-Recieved gear for maximizing incoming cures reactively.
+
+:Macro:		/console gs equip sets.Self_Healing
+
+
+[Win+P]		= Equip Sheltered equipment for maximizing incoming Protects and Shells.
+
+:Macro:		/console gs equip sets.Sheltered
+
+
+--- Addon and Plugin related combinations. ---
+
+[Ctrl+Alt+Win+?]	= Load or reload the Addon or Plugin, the ? is the key specific to the related Addon or Plugin.
+[Win+?]				= Unload the Addon or Plugin, the ? is the key specific to the related Addon or Plugin.
+
+[G]					= Anchor (Prevents you from being knocked back by monster TP moves.)
+[Q]					= AllSeeingEye (Allows you to see things usually invisible to players.)
+[M]					= Chatmon (Plays sounds in response to specific incoming messages.)
+[O]					= Dressup (Prevents players from blinking with the proper setup.)
+[T]					= Zonetimer (Keeps track of the amount of time you've spent in a zone, or since you loaded the timer.)
+[I]					= Gametime (Tracks days of the week and current time at the top of the screen.)
+[R]					= Treasury (Automatically lots and passes or drops certain items you set.)
+[F12]				= Gearswap (Reloads to reset all the current modes or update changes quickly.)
+
+This init autoloads Request, which is an addon that can be used to answer player's requests, use it with the Shortcuts addon.
+Non-Official addon mentioned here can be downloaded from: https://www.dropbox.com/sh/qz5rb5je202cbu3/AAAxozfBv_8agarM0NCnPTiZa?dl=0
+
+--- Item related combinations. ---
+
+[Ctrl+Alt+Win+?]	= Obtain the item linked to the ? key from your satchel. (Requires the Itemizer Addon)
+[Ctrl+?]			= Equip (and usually lock) the item in place.
+[Alt+?]				= Use the item. (if usable)
+[Ctrl+Alt+?]		= Unlock, unequip the item, and stow it in satchel. (Requires the Itemizer Addon)
+
+[H]					= Warp Ring.
+[N]					= Nexus Cape.
+[Z]					= Capacity Cape.
+[Y]					= Capacity Ring.
+[[]					= Trizek Ring.
+[]]					= Echad Ring.
+[U]					= Reraise Earring.
