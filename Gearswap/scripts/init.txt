@@ -1,0 +1,184 @@
+keyboard_allowmmf 1
+
+//Set console variables
+console_position 15 50
+console_color 255 255 0 0
+console_displayactivity 1
+console_fadedelay 3500
+console_chatopen 1
+console_screendir screenshots
+
+//Set game variables
+game_forceambientlight 1
+game_ambientlight 255 120 120 120
+game_gamma 50
+game_allowsetcursorpos 0
+game_exittype 1
+game_exitprompt 1
+game_allowresize 0
+
+//Set general variables
+showfps 1
+config FrameRateDivisor 1
+// FPS Position - Use -75 1 to position it on the top right corner.
+//fps_position 5 5 //top left
+fps_position -75 1 //top right
+
+drawdistance set 10
+//Bind keys
+//Bind syntax is "bind <key> <up> <command>
+// ^ represents control- and ! is alt, eg !1 is alt-1
+bind ^@!f9 drawdistance set 10
+bind ^@!f10 drawdistance set 1
+bind ^@!f1 game_forceambientlight
+bind ^@!f11 showfps
+bind sysrq screenshot png hide
+bind ^v paste
+
+//Sets ConsoleBG Background Position
+consolebg position 15 50
+consolebg size 1300 310
+
+// *** ALLIANCE TARGET KEYS ***
+// This lets you push Alt+F1-6 and Ctrl+F1-6 to  to target Alliance members.
+bind ^f1 input /ta <a10>
+bind ^f2 input /ta <a11>
+bind ^f3 input /ta <a12>
+bind ^f4 input /ta <a13>
+bind ^f5 input /ta <a14>
+bind ^f6 input /ta <a15>
+bind !f1 input /ta <a20>
+bind !f2 input /ta <a21>
+bind !f3 input /ta <a22>
+bind !f4 input /ta <a23>
+bind !f5 input /ta <a24>
+bind !f6 input /ta <a25>
+
+// Fix Fatfinger Slips
+// Prevents changing macrosets when you hit shift because fatfinger.
+bind ^~1 ;
+bind !~1 ;
+bind ^~2 ;
+bind !~2 ;
+bind ^~3 ;
+bind !~3 ;
+bind ^~4 ;
+bind !~4 ;
+bind ^~5 ;
+bind !~5 ;
+bind ^~6 ;
+bind !~6 ;
+bind ^~7 ;
+bind !~7 ;
+bind ^~8 ;
+bind !~8 ;
+bind ^~9 ;
+bind !~9 ;
+bind ^~0 ;
+bind !~0 ;
+
+//My own addons, for requestable spells and abilities, downloadable here: https://www.dropbox.com/sh/qz5rb5je202cbu3/AAAxozfBv_8agarM0NCnPTiZa?dl=0
+//Requires shortcuts for most functionality.
+//lua load request
+//lua load roller
+//lua load CheckExt
+
+//Other addons I found that are quite good
+//lua load Gaze_check
+lua load skillchains
+lua load SellNPC
+//lua load QuietSparks
+
+//Other binds!
+//@ = Windows Key
+//% = Works only when text bar not up.
+//^ = Control Key
+//! = Alt Key
+//# - Apps Key
+
+//Addon binds.
+
+//Anchor controls - Can't be force moved.
+//bind ^@!q lua load anchor
+//bind @q lua unload anchor
+
+//Dressup controls - Prevents blinking.
+//bind ^@!o lua load dressup
+//bind @o lua unload dressup
+
+//Zonetimer plugin controls.
+//bind @t lua unload zonetimer
+//bind ^@!t lua reload zonetimer
+
+//Gametime plugin controls.
+//bind @i lua unload gametime
+//bind ^@!i lua reload gametime
+
+//Treasury plugin controls.
+//bind @r lua unload treasury
+//bind ^@!r lua reload treasury
+
+//Aliases mostly for convienience of use on request.
+alias blusets azuresets setlist
+alias asets azuresets setlist
+alias attack input /attack
+alias dummy gs c cycle ExtraSongsMode
+alias dummysong gs c cycle ExtraSongsMode;herbpastoral me
+alias gtfo input /item "Farewell Fly" <me>
+alias geo gs c toggle AutoBuffMode;gs c update user
+alias export gs export
+//alias teamspeak input /echo Can choose: teamspeakparty, teamspeaklinkshell
+//alias teamspeakparty input /p Address: ts106.teamspeak3.com:6413  Password: 7872687s
+//alias tsparty input /p Address: ts106.teamspeak3.com:6413 Password: 7872687s
+//alias tslinkshell input /l Address: ts106.teamspeak3.com:6413 Password: 7872687s
+//alias tslinkshell2 input /l2 Address: ts106.teamspeak3.com:6413 Password: 7872687s
+//alias discordparty input /p discord.gg/010OuOUZBnMNkk3vY
+//alias discordlinkshell input /l discord.gg/010OuOUZBnMNkk3vY
+//alias discordlinkshell2 input /l2 discord.gg/010OuOUZBnMNkk3vY
+//alias tsreply r Address: ts106.teamspeak3.com:6413  Password: 7872687s
+//alias discordreply r discord.gg/010OuOUZBnMNkk3vY
+alias cureplease run -runonce "D:/Projects/FFXI Stuff/CurePlease/Cure Please.exe"
+alias ffxicalc run -runonce "D:/Projects/FFXI Stuff/Calculator/ffxicalc/FFXICalculator.exe"
+alias calculator run -runonce "C:/Windows/system32/calc.exe"
+//alias bz5 run -runonce "C:/Games/FFXI Tools/FFXI Bots/BZ5 Stunbot/Stunbot.exe"
+alias obs run -runonce "C:/Program Files (x86)/obs-studio/bin/64bit/obs64.exe"
+alias windower run -runonce "G:/Windower4/Windower.exe"
+alias easyf run -runonce "D:/Projects/FFXI Stuff/EasyFarm/Release/EasyFarm.exe"
+//alias roll roller roll
+//alias heal lua load healbot;wait 1;hb on
+alias capacity get "Mecisto. Mantle" satchel;wait 3;gs c set Capacity true
+alias home get "Warp Ring" satchel;wait 2;gs c forceequip Warp ring2;wait 9;input /item "Warp Ring" <me>;wait 15;gs c quietenable ring2;put "Warp Ring" satchel
+//alias behedom get "Behe. Masque +1" satchel;wait 2;input /equip head "Behe. Masque +1";gs disable head;wait 31;input /item "Behe. Masque +1" <me>;wait 15;gs enable head,gs c update user;put "Behe. Masque +1" satchel
+//alias bacon get "Behemoth Suit +1" satchel;wait 2;input /equip body "Behemoth Suit +1";gs disable body;gs disable legs;gs disable hands; gs disable feet;wait 33;input /item "Behemoth Suit +1" <me>;wait 3;gs enable all;gs c update user;put "Behemoth Suit +1" satchel
+
+//General Elementalmode aliases
+alias firemode gs c set ElementalMode Fire;
+alias windmode gs c set ElementalMode Wind;
+alias airmode gs c set ElementalMode Wind;
+alias lightningmode gs c set ElementalMode Lightning;
+alias thundermode gs c set ElementalMode Lightning;
+alias lightmode gs c set ElementalMode Light;
+alias earthmode gs c set ElementalMode Earth;
+alias stonemode gs c set ElementalMode Earth;
+alias icemode gs c set ElementalMode Ice;
+alias blizzardmode gs c set ElementalMode Ice;
+alias watermode gs c set ElementalMode Water;
+alias darkmode gs c set ElementalMode Dark;
+
+//Scholar specific aliases
+alias liquefaction gs c set ElementalMode Fire;gs c elemental skillchain1
+alias detonation gs c set ElementalMode Wind;gs c elemental skillchain1
+alias impaction gs c set ElementalMode Lightning;gs c elemental skillchain1
+alias transfixion gs c set ElementalMode Light;gs c elemental skillchain1
+alias scission gs c set ElementalMode Earth;gs c elemental skillchain1
+alias induration gs c set ElementalMode Ice;gs c elemental skillchain1
+alias reverberation gs c set ElementalMode Water;gs c elemental skillchain1
+alias compression gs c set ElementalMode Dark;gs c elemental skillchain1
+
+alias fusion gs c set ElementalMode Fire;gs c elemental skillchain2
+alias fragmentation gs c set ElementalMode Lightning;gs c elemental skillchain2
+alias gravitation gs c set ElementalMode Earth;gs c elemental skillchain2
+alias distortion gs c set ElementalMode Ice;gs c elemental skillchain2
+
+//My settings for screen placement of objects, requires Text addon and plugin, and blocking help.
+//wait 30;load text;text devset schedule position 570 965;input /blockhelp

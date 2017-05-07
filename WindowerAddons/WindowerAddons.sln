@@ -1,0 +1,111 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{312594C2-9719-4400-A822-8108791AA59E}"
+	ProjectSection(SolutionItems) = preProject
+		..\Gearswap\Cheat Sheet.txt = ..\Gearswap\Cheat Sheet.txt
+		..\Gearswap\scripts\init.txt = ..\Gearswap\scripts\init.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Xavikon_old", "Xavikon_old", "{83673829-3564-4CA4-A895-7ED877492999}"
+	ProjectSection(SolutionItems) = preProject
+		..\Gearswap\data\Xavikon\Xavikon-Globals.lua = ..\Gearswap\data\Xavikon\Xavikon-Globals.lua
+		..\Gearswap\data\Xavikon\Xavikon-Items.lua = ..\Gearswap\data\Xavikon\Xavikon-Items.lua
+		..\Gearswap\data\Xavikon\Xavikon_Blm_Gear.lua = ..\Gearswap\data\Xavikon\Xavikon_Blm_Gear.lua
+		..\Gearswap\data\Xavikon\Xavikon_Blu_Gear.lua = ..\Gearswap\data\Xavikon\Xavikon_Blu_Gear.lua
+		..\Gearswap\data\Xavikon\Xavikon_Brd_Gear.lua = ..\Gearswap\data\Xavikon\Xavikon_Brd_Gear.lua
+		..\Gearswap\data\Xavikon\Xavikon_Bst_Gear.lua = ..\Gearswap\data\Xavikon\Xavikon_Bst_Gear.lua
+		..\Gearswap\data\Xavikon\Xavikon_Cor_Gear.lua = ..\Gearswap\data\Xavikon\Xavikon_Cor_Gear.lua
+		..\Gearswap\data\Xavikon\Xavikon_Crafting.lua = ..\Gearswap\data\Xavikon\Xavikon_Crafting.lua
+		..\Gearswap\data\Xavikon\Xavikon_Dnc_Gear.lua = ..\Gearswap\data\Xavikon\Xavikon_Dnc_Gear.lua
+		..\Gearswap\data\Xavikon\Xavikon_Drg_Gear.lua = ..\Gearswap\data\Xavikon\Xavikon_Drg_Gear.lua
+		..\Gearswap\data\Xavikon\Xavikon_Drk_Gear.lua = ..\Gearswap\data\Xavikon\Xavikon_Drk_Gear.lua
+		..\Gearswap\data\Xavikon\Xavikon_Geo_Gear.Lua = ..\Gearswap\data\Xavikon\Xavikon_Geo_Gear.Lua
+		..\Gearswap\data\Xavikon\Xavikon_Mnk_Gear.Lua = ..\Gearswap\data\Xavikon\Xavikon_Mnk_Gear.Lua
+		..\Gearswap\data\Xavikon\Xavikon_Nin_Gear.lua = ..\Gearswap\data\Xavikon\Xavikon_Nin_Gear.lua
+		..\Gearswap\data\Xavikon\Xavikon_Pld_Gear.lua = ..\Gearswap\data\Xavikon\Xavikon_Pld_Gear.lua
+		..\Gearswap\data\Xavikon\Xavikon_Pup_Gear.lua = ..\Gearswap\data\Xavikon\Xavikon_Pup_Gear.lua
+		..\Gearswap\data\Xavikon\Xavikon_Rdm_Gear.lua = ..\Gearswap\data\Xavikon\Xavikon_Rdm_Gear.lua
+		..\Gearswap\data\Xavikon\Xavikon_Rng_Gear.lua = ..\Gearswap\data\Xavikon\Xavikon_Rng_Gear.lua
+		..\Gearswap\data\Xavikon\Xavikon_Run_Gear.lua = ..\Gearswap\data\Xavikon\Xavikon_Run_Gear.lua
+		..\Gearswap\data\Xavikon\Xavikon_Sam_Gear.lua = ..\Gearswap\data\Xavikon\Xavikon_Sam_Gear.lua
+		..\Gearswap\data\Xavikon\Xavikon_Sch_Gear.lua = ..\Gearswap\data\Xavikon\Xavikon_Sch_Gear.lua
+		..\Gearswap\data\Xavikon\Xavikon_Smn_Gear.lua = ..\Gearswap\data\Xavikon\Xavikon_Smn_Gear.lua
+		..\Gearswap\data\Xavikon\Xavikon_Thf_Gear.lua = ..\Gearswap\data\Xavikon\Xavikon_Thf_Gear.lua
+		..\Gearswap\data\Xavikon\Xavikon_War_Gear.lua = ..\Gearswap\data\Xavikon\Xavikon_War_Gear.lua
+		..\Gearswap\data\Xavikon\Xavikon_Whm_Gear.lua = ..\Gearswap\data\Xavikon\Xavikon_Whm_Gear.lua
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Crystaldefender", "Crystaldefender", "{0AB49078-E5A9-49D4-AEF4-A0D72A0AA586}"
+	ProjectSection(SolutionItems) = preProject
+		..\Gearswap\data\Crystaldefender\Crystaldefender-Globals.lua = ..\Gearswap\data\Crystaldefender\Crystaldefender-Globals.lua
+		..\Gearswap\data\Crystaldefender\Crystaldefender-Items.lua = ..\Gearswap\data\Crystaldefender\Crystaldefender-Items.lua
+		..\Gearswap\data\Crystaldefender\Crystaldefender_Crafting.lua = ..\Gearswap\data\Crystaldefender\Crystaldefender_Crafting.lua
+		..\Gearswap\data\Crystaldefender\Crystaldefender_Dnc_Gear.lua = ..\Gearswap\data\Crystaldefender\Crystaldefender_Dnc_Gear.lua
+		..\Gearswap\data\Crystaldefender\Crystaldefender_Geo_Gear.Lua = ..\Gearswap\data\Crystaldefender\Crystaldefender_Geo_Gear.Lua
+		..\Gearswap\data\Crystaldefender\Crystaldefender_Whm_Gear.lua = ..\Gearswap\data\Crystaldefender\Crystaldefender_Whm_Gear.lua
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Motes", "Motes", "{4D1DC045-E9A5-462E-91AA-EE900C7F416D}"
+	ProjectSection(SolutionItems) = preProject
+		..\Gearswap\libs\Modes.lua = ..\Gearswap\libs\Modes.lua
+		..\Gearswap\libs\Mote-documentation.txt = ..\Gearswap\libs\Mote-documentation.txt
+		..\Gearswap\libs\Mote-Globals.lua = ..\Gearswap\libs\Mote-Globals.lua
+		..\Gearswap\libs\Mote-Include.lua = ..\Gearswap\libs\Mote-Include.lua
+		..\Gearswap\libs\Mote-Mappings.lua = ..\Gearswap\libs\Mote-Mappings.lua
+		..\Gearswap\libs\Mote-SelfCommands.lua = ..\Gearswap\libs\Mote-SelfCommands.lua
+		..\Gearswap\libs\Mote-TreasureHunter.lua = ..\Gearswap\libs\Mote-TreasureHunter.lua
+		..\Gearswap\libs\Mote-Utility.lua = ..\Gearswap\libs\Mote-Utility.lua
+		..\Gearswap\libs\organizer-lib.lua = ..\Gearswap\libs\organizer-lib.lua
+		..\Gearswap\libs\README.md = ..\Gearswap\libs\README.md
+		..\Gearswap\libs\Sel-Stahp.lua = ..\Gearswap\libs\Sel-Stahp.lua
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{F30FF18F-93E0-4713-8E3E-3DB8A3A8A322}"
+	ProjectSection(SolutionItems) = preProject
+		..\Gearswap\scripts\init.txt = ..\Gearswap\scripts\init.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Base", "Base", "{1F892A97-6845-42A2-8ECE-EB46D80F9A07}"
+	ProjectSection(SolutionItems) = preProject
+		..\Gearswap\data\Selindrile\Selindrile-Globals.lua = ..\Gearswap\data\Selindrile\Selindrile-Globals.lua
+		..\Gearswap\data\Selindrile\Selindrile-Items.lua = ..\Gearswap\data\Selindrile\Selindrile-Items.lua
+		..\Gearswap\data\Selindrile\Selindrile_Blm_Gear.lua = ..\Gearswap\data\Selindrile\Selindrile_Blm_Gear.lua
+		..\Gearswap\data\Selindrile\Selindrile_Blu_Gear.lua = ..\Gearswap\data\Selindrile\Selindrile_Blu_Gear.lua
+		..\Gearswap\data\Selindrile\Selindrile_Brd_Gear.lua = ..\Gearswap\data\Selindrile\Selindrile_Brd_Gear.lua
+		..\Gearswap\data\Selindrile\Selindrile_Bst_Gear.lua = ..\Gearswap\data\Selindrile\Selindrile_Bst_Gear.lua
+		..\Gearswap\data\Selindrile\Selindrile_Cor_Gear.lua = ..\Gearswap\data\Selindrile\Selindrile_Cor_Gear.lua
+		..\Gearswap\data\Selindrile\Selindrile_Crafting.lua = ..\Gearswap\data\Selindrile\Selindrile_Crafting.lua
+		..\Gearswap\data\Selindrile\Selindrile_Dnc_Gear.lua = ..\Gearswap\data\Selindrile\Selindrile_Dnc_Gear.lua
+		..\Gearswap\data\Selindrile\Selindrile_Drg_Gear.lua = ..\Gearswap\data\Selindrile\Selindrile_Drg_Gear.lua
+		..\Gearswap\data\Selindrile\Selindrile_Drk_Gear.lua = ..\Gearswap\data\Selindrile\Selindrile_Drk_Gear.lua
+		..\Gearswap\data\Selindrile\Selindrile_Geo_Gear.Lua = ..\Gearswap\data\Selindrile\Selindrile_Geo_Gear.Lua
+		..\Gearswap\data\Selindrile\Selindrile_Mnk_Gear.Lua = ..\Gearswap\data\Selindrile\Selindrile_Mnk_Gear.Lua
+		..\Gearswap\data\Selindrile\Selindrile_Nin_Gear.lua = ..\Gearswap\data\Selindrile\Selindrile_Nin_Gear.lua
+		..\Gearswap\data\Selindrile\Selindrile_Pld_Gear.lua = ..\Gearswap\data\Selindrile\Selindrile_Pld_Gear.lua
+		..\Gearswap\data\Selindrile\Selindrile_Pup_Gear.lua = ..\Gearswap\data\Selindrile\Selindrile_Pup_Gear.lua
+		..\Gearswap\data\Selindrile\Selindrile_Rdm_Gear.lua = ..\Gearswap\data\Selindrile\Selindrile_Rdm_Gear.lua
+		..\Gearswap\data\Selindrile\Selindrile_Rng_Gear.lua = ..\Gearswap\data\Selindrile\Selindrile_Rng_Gear.lua
+		..\Gearswap\data\Selindrile\Selindrile_Run_Gear.lua = ..\Gearswap\data\Selindrile\Selindrile_Run_Gear.lua
+		..\Gearswap\data\Selindrile\Selindrile_Sam_Gear.lua = ..\Gearswap\data\Selindrile\Selindrile_Sam_Gear.lua
+		..\Gearswap\data\Selindrile\Selindrile_Sch_Gear.lua = ..\Gearswap\data\Selindrile\Selindrile_Sch_Gear.lua
+		..\Gearswap\data\Selindrile\Selindrile_Smn_Gear.lua = ..\Gearswap\data\Selindrile\Selindrile_Smn_Gear.lua
+		..\Gearswap\data\Selindrile\Selindrile_Thf_Gear.lua = ..\Gearswap\data\Selindrile\Selindrile_Thf_Gear.lua
+		..\Gearswap\data\Selindrile\Selindrile_War_Gear.lua = ..\Gearswap\data\Selindrile\Selindrile_War_Gear.lua
+		..\Gearswap\data\Selindrile\Selindrile_Whm_Gear.lua = ..\Gearswap\data\Selindrile\Selindrile_Whm_Gear.lua
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{83673829-3564-4CA4-A895-7ED877492999} = {312594C2-9719-4400-A822-8108791AA59E}
+		{0AB49078-E5A9-49D4-AEF4-A0D72A0AA586} = {312594C2-9719-4400-A822-8108791AA59E}
+		{4D1DC045-E9A5-462E-91AA-EE900C7F416D} = {312594C2-9719-4400-A822-8108791AA59E}
+		{F30FF18F-93E0-4713-8E3E-3DB8A3A8A322} = {312594C2-9719-4400-A822-8108791AA59E}
+		{1F892A97-6845-42A2-8ECE-EB46D80F9A07} = {312594C2-9719-4400-A822-8108791AA59E}
+	EndGlobalSection
+EndGlobal
