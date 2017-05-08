@@ -97,6 +97,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Base", "Base", "{1F892A97-6
 		..\Gearswap\data\Selindrile\Selindrile_Whm_Gear.lua = ..\Gearswap\data\Selindrile\Selindrile_Whm_Gear.lua
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Xavikon_new", "Xavikon_new", "{F72E98EA-B0FC-4619-A970-9EEDB2F1C5FD}"
+	ProjectSection(SolutionItems) = preProject
+		Xavikon-Globals.lua = Xavikon-Globals.lua
+		Xavikon_BLU_gear.lua = Xavikon_BLU_gear.lua
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -107,5 +113,6 @@ Global
 		{4D1DC045-E9A5-462E-91AA-EE900C7F416D} = {312594C2-9719-4400-A822-8108791AA59E}
 		{F30FF18F-93E0-4713-8E3E-3DB8A3A8A322} = {312594C2-9719-4400-A822-8108791AA59E}
 		{1F892A97-6845-42A2-8ECE-EB46D80F9A07} = {312594C2-9719-4400-A822-8108791AA59E}
+		{F72E98EA-B0FC-4619-A970-9EEDB2F1C5FD} = {312594C2-9719-4400-A822-8108791AA59E}
 	EndGlobalSection
 EndGlobal
